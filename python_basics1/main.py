@@ -1,3 +1,13 @@
+# 1, Csinálunk egy pár válozót, olvasunk be változókat és konvertáljuk őket,
+# majd írjuk ki őket a képernyőre
+# 2, Írjunk egy függvényt, ami megkap egy életkort és egy a függvényen belül
+# egy elágazás mondja meg hogy az adott személynek szabad-e már autót vezetni
+# vagy inni. (16 éves kortól lehet autót vezetni és 18 éves kortól lehet inni.)
+# 3, Írjunk egy olyan függvényt, ami kiírja a számokat 1-től 100-ig, de csak a
+# páros számokat (if szam % 2 == 0, if szam % 2 != 0) (range(.., .., 2))
+# 4, Írjunk függvényt, ami megkap egy számot és megmondja a faktoriálisát
+
+
 def print_hi(name):
     print(f'Hi, {name}')
 
@@ -13,6 +23,9 @@ def check5():
     else:
         print('Az a kisebb mint 5')
 
+
+def add(a, b):
+    return a + b
 
 
 if __name__ == '__main__':
@@ -44,3 +57,7 @@ if __name__ == '__main__':
 
 #for i in range(1, 101):
 #    print(i)
+
+    print('5 + 4: ' + str(add(5, 4)))
+
+
