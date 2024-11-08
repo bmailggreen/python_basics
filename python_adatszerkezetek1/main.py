@@ -102,3 +102,33 @@ print("A költések összege: " + str(osszeg))
 #        print('Szám a listában: ' + str(koltesek[i]))
 
 
+# FELADATOK MEGOLDÁSRA:
+# 1, Hozzatok létre egy listát felöltve (kezdőértékekkel)
+# Nézzeket meg egy-egy element az index kiválasztós módszerrel
+# pld: lista1[2],  írjtaok felül egy-egy element pld:  lista1[2] = 23
+# Szaladjatok végig az elemeken és írassátok ki őket
+# Írasssátok ki egybe a teljes listát
+# Kísérletezzetek vele
+
+# 2, Hozzatok létre egy üres listát.
+# Az előző órán megismert módszerrel billentyűzetről
+# kérjetek be számokat amíg nem adnak be 'k' karaktert.
+# Minden egyes számot tároljatok el a listában.
+# Majd írassátok ki a lista tartalmát.
+
+# 3, A második feladatban megismert kóddal létrehozott listán
+# szaladjunk végig és adjuk össze a számokat.
+
+# 4, Ugyanez csak nem az összegre vagyunk kíváncsiak, hanem a
+# számtani átlagra. (Összeg / az elemek számával.)
+
+# 5, Csináljunk egy programot, ahol egy listában le lehet tárolni a
+# billentyűzetről megadott személyneveket és letárolni őket.
+
+# 5a, A legvégén töröljük az összes olyan nevet ami egy politikusnak a
+# neve lenne.
+
+# 6, Legyen két listánk. Az egyikben vezetéknevek vannak, a másikban
+# személynevek. Menjünk végig az összes vezeték és keresztneven és
+# minden kombinációban írjuk ki a neveket a képernyőre.
+
